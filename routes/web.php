@@ -11,7 +11,6 @@
 |
 */
 
-
 Auth::routes();
 
 Route::post('2faVerify', function () {
