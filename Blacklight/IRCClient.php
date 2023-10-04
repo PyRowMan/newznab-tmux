@@ -71,8 +71,6 @@ class IRCClient
 
     /**
      * Buffer contents.
-     *
-     * @var string
      */
     protected ?string $_buffer = null;
 
@@ -530,7 +528,7 @@ class IRCClient
     /**
      * Write a single character to the socket.
      *
-     * @param string (char) $character A single character.
+     * @param  string (char)  $character A single character.
      * @return int|bool Number of bytes written or false.
      */
     protected function _writeSocketChar($character)

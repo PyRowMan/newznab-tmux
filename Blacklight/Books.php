@@ -50,9 +50,6 @@ class Books
 
     public array $failCache;
 
-    /**
-     * @var \Blacklight\ColorCLI
-     */
     protected ColorCLI $colorCli;
 
     /**

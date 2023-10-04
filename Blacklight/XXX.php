@@ -34,9 +34,6 @@ class XXX
 
     protected string $imgSavePath;
 
-    /**
-     * @var \Blacklight\ReleaseImage
-     */
     protected ReleaseImage $releaseImage;
 
     protected string|int|null $movieQty;
@@ -45,9 +42,6 @@ class XXX
 
     protected string $cookie;
 
-    /**
-     * @var \Blacklight\ColorCLI
-     */
     protected ColorCLI $colorCli;
 
     public function __construct()
